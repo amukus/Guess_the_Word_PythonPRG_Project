@@ -23,6 +23,8 @@ pip install requests
 ```
 
 # How to run the Game
+
+Run the GUI program:
 ```
 python gui.py
 ```
