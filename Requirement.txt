@@ -1,0 +1,11 @@
+Dependencies
+
+||||
+||||
+||||
+
+Python 3.12.5 or greater
+
+"requests" library (for fetching words from the API)
+
+Tkinter (comes pre-installed with Python)
