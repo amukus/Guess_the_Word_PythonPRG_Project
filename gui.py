@@ -20,25 +20,25 @@ class GuessTheWord:
         self.title_label = tk.Label(
             master, text="Guess the Word!", font=("Verdana", 26, "bold"), bg="#ECDFCC", fg="#181C14"
         )
-        self.title_label.pack(padx=10, pady= 10)
+        self.title_label.pack(padx=15, pady= 15)
 
         self.word_label = tk.Label(
             master, text="", font=("Verdana", 24, "bold"), bg="#ECDFCC", fg="#3C3D37"
         )
-        self.word_label.pack(padx=10, pady=10)
+        self.word_label.pack(padx=20, pady=20)
 
         self.entry_var = tk.StringVar()
         self.entry = tk.Entry(
             master, textvariable=self.entry_var, font=("Verdana", 20),
             bg="#ECDFCC", fg="#697565", justify="center"
         )
-        self.entry.pack(padx=10, pady=10)
+        self.entry.pack(padx=25, pady=25)
 
         self.check_button = tk.Button(
             master, text="Check", command=self.check_guess, font=("Verdana", 16),
             bg="#3C3D37", fg="#ECDFCC"
         )
-        self.check_button.pack(padx=5, pady=5)
+        self.check_button.pack(padx=25, pady=25)
 
         self.new_game_button = tk.Button(
             master, text="New Game", command=self.new_game, font=("Verdana", 16),
