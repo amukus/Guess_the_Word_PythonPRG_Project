@@ -12,7 +12,7 @@ This project is a fun word puzzle game built using Python and Tkinter. The progr
 
 1. Clone the Repository:
 ```
-git clone
+git clone https://github.com/amukus/Guess_the_Word_PythonPRG_Project.git 
 ```
 
 2. Set up the Environment: Make sure Python 3.12.5 is installed on your system.
@@ -29,3 +29,7 @@ python gui.py
 
 # Screenshot of the Application
 
+![Alt image of Screenshot](https://raw.githubusercontent.com/amukus/Guess_the_Word_PythonPRG_Project/84e448437986748d792a4da778d49adbe66e3216/Prog_Interface.png)
+
+# Conclusion
+This README should now provide all the essential information for users on GitHub. Let me know if you need any other changes!
