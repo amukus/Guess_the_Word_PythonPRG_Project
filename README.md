@@ -9,4 +9,6 @@ This project is a fun word puzzle game built using Python and Tkinter. In each r
 - Restart the game at any time with a new word.
 
 # How to run the Game
->>> python gui.py
+```
+python gui.py
+```
